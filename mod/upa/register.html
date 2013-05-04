@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="ajax.js"></script>
+<script type="text/javascript" src="js/register.js"></script>
+
+<link rel="stylesheet" href="login.css" type="text/css" media="all">
+<title>CONTATU :: alta usuario</title>
+</head>
+<body>
+	<div id="login">
+		<img src="icon.png" />
+		<form>
+			Elige un usuario: <input type="text" id="userInput" onkeyup="testUser()" autofocus="true"></input><label id="userLabel"></label><br>
+		
+			Elige una contraseña: <input type="password" id="passInput" onkeyup="testPass()"></input><label id="passLabel"></label><br>
+			
+			Dime un email (para poder comunicarme contigo): <input type="email" id="emailInput" onkeyup="testEmail()" ></input><label id="emailLabel"></label>
+		
+			<button type="button" onclick="go()">Comenzar!</button>			
+			
+			<label id="label_main"></label>
+		</form>
+	</div>
+
+</body>
+</html>

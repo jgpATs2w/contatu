@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="ajax.js"></script>
+<script type="text/javascript" src="form.js"></script>
+
+<link rel="stylesheet" href="login.css" type="text/css" media="all">
+<title>CONTATU :: registro</title>
+</head>
+<body>
+	<div id="login">
+		<img src="icon.png" />
+		<form>
+			<label>
+				usuario<br>
+				<input type="text" id="userInput" onchange="userChanged();" autofocus="true"></input>
+				<label id="userLabel"></label><br>
+			</label>
+			<label>
+				contraseña<br>
+				<input type="password" id="passInput" onchange="passChanged();" ></input>
+				<label id="passLabel"></label>
+			</label>
+		</form>
+		<button onclick="passChanged();">login</button>
+		<label id="label_console" style="color:red;"></label><br><br>
+		¿Nuevx aquí? Puedes <a href="register.html">crear un nuevo usuario</a><br>
+		O visitar la <a href="../../html/help.html">página de ayuda</a>
+	</div>
+<script>
+	
+</script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+
+body {
+	font-family: "Comic Sans MS";
+	font-size: 20px;
+}
+#userLabel, #passLabel { 
+	font-size: 15px;
+}
+#login {
+	position: absolute;
+	top: 50px; left: 100px;
+}

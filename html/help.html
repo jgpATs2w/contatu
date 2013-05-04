@@ -1,0 +1,42 @@
+<head>
+	<link rel="stylesheet" href="../css/main.css"/>
+</head>
+<body>
+<ul id="toc"></ul>
+
+<h2 id="1">¿Qué es?</h2>
+<b>Contatu</b> es una aplicación de código abierto y gratuita que te permite llevar la contabilidad por el método de 'caja' con diferentes cuentas. 
+Está pensado para la contabilidad doméstica, individual o colectiva, en aquellos casos en los que no es necesario 
+seguir el plan general contable, que requeriría llevar los códigos normalizados de subcuentas y el modelo de la doble
+partida. Ninguno de estos términos es necesario para emplear Contatu.<br>
+A medida que vayas introduciendo más datos, irás descubriendo la utilidad de movimientos e informes.<br>
+No es necesario seguir unos conceptos tipificados, pero es muy recomendable: al generar informes aparecerán automáticamente
+desglosados por los conceptos que hayas empleado. Al introducir nuevos datos, te aparecerán las sugerencias en base a los
+conceptos que hayas introducido previamente.
+
+<h2 id="2">¿Cómo utilizarlo?</h2>
+Para comenzar, creas un nuevo usuario y te registras con tu usuario y contraseña.<br>
+Una vez dentro, creas una cuenta, o varias. Volviendo a la página de inicio, ya puedes introducir datos manualmente<br>
+La introducción de datos automática, por el momento, sólo es posible si importas datos desde un archivo de texto
+descargado de una cuenta de bankia. En un futuro espero que se puedan introducir datos en otros formatos.
+
+<h2 id="3">¿Dónde se almacenan mis datos?</h2>
+El servidor al que te estás conectando, igual que el que almacena tus datos, pertenecen a la compañía de hosting RedCoruna. Para que 
+funcione, tengo contratado un plan de hosting según el cual solo yo puedo acceder a los datos.<br>
+Evidentemente, esto no es un bunker en el que pueda garantizar que nadie va a saltar los niveles de seguridad y acceder a
+la base de datos o recuperar tu contraseña, pero sí que garantizo que yo no lo voy a hacer.<br>
+No obstante, de cara a evitar la pérdida de datos, existe la opción (en configuración) de realizar una copia de seguridad de los datos.<br>
+En un futuro existirá la opción de poder trabajar con datos 'privados', es decir, procesar datos que el usuario tenga 
+en su ordenador, sin que queden datos en el servidor.
+<h2 id="4">Dudas, sugerencias, comentarios...</h2>
+Me gustaría que me dijeras algo! en javier.garcia.parra AT gmail.com
+<script>
+	var H = document.getElementsByTagName('h2');
+	for(i=0; i<H.length; i++){
+		var li = document.createElement('li');
+		li.innerHTML = "<a href='#"+H[i].id+"'>"+H[i].textContent+"</a>";
+		document.getElementById('toc').appendChild(li);
+		
+	}
+</script>
+</body>

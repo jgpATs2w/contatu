@@ -1,0 +1,17 @@
+<?php
+session_start(); global $u; $u = $_SESSION['uname'];
+require_once('suggest.class.php');
+
+$suggest = new Suggest();
+$keyword = $_GET['keyword'];
+
+if(ob_get_length()) ob_clean();
+
+header('Expires: Mon, 26 Jul 2012 05:00:00 GMT' );
+header('Last-Modified: ' . gmdate('D, d M Y H:i:s') . 'GMT');
+header('Cache-Control: no-cache, must-revalidate');
+header('Pragma: no-cache');
+header('Content-Type: text/xml');
+
+echo $suggest->getSuggestions($keyword);
+?>
