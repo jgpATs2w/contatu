@@ -1,0 +1,14 @@
+h2 {text-transform: lowercase}
+#t_saldos { font-size: 15px; text-align: left}
+#t_saldos thead{font-size:18px; text-decoration: underline;}
+#t_saldos .tdh{font-style: oblique}
+#t_saldos .total {font-size: 20px;}
+#t_saldos .num {text-align: right;}
+#insert{
+	height:250px;
+	margin-top: 20px;}
+#date{float: left;}
+#descriptor {float: left;}
+#cuanto{float: left;}
+#a_insert{}
+#sube_datos{}

@@ -1,0 +1,17 @@
+#search-output {
+	position: relative;
+	top: 50px;
+}
+.comments {font-size: 12px}
+#mov { font-size: 12px;}
+#mov thead {text-decoration: underline; font-size: 15px}
+#mov .mov-fecha{}
+#mov .mov-que{}
+#mov .mov-descriptor{}
+#mov .mov-cuenta{width: 20px}
+#mov .mov-cuanto{text-align: right}
+#mov .mov-total{font-size: 20px; text-decoration: overline; text-align: right}
+#mov .mov-par {background-color: #D4E3FF}
+
+
+

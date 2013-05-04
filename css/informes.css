@@ -1,0 +1,23 @@
+.report1{ font-size: 12px;}
+.report2{ font-size: 15px; font-style: oblique; background-color: #CDCDD5}
+.report3{ font-size: 18px;}
+.cuando{ width:70px; }
+
+.promtr1{font-size: 18px; background-color: #BEBEBE}
+.promtr2{font-size: 14px; font-style:oblique; text-align: right;}
+
+.magic_table{
+	font-family: "Comic Sans MS";
+}
+	.magic_table .headers_columns{
+		color: blue;
+		text-decoration: underline;
+		width: 8ex;
+	}
+	.magic_table .headers_rows{
+		color: black;
+		font-style: italic;
+	}
+	.magic_table .body{
+		color: green;
+	}
